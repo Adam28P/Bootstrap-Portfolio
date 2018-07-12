@@ -115,6 +115,21 @@ section {
     margin: 20px auto;
   }
 
+
+  .centeredTitle {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    width: 91%;
+    padding: 20px 0px;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+
   .form-control {
     border-radius: 0;
     min-width: 100%;
