@@ -53,12 +53,16 @@ section {
     border-bottom: 3px solid #ccc;
   }
   
-  /* media query for nav background color change */
-  /* @media only screen and (max-width: 767px) { */
-    /* .navbar-header { */
-      /* background-color: #4aaaa5; */
-    /* } */
-  /* } */
+
+ .navbar ul li {
+  border-right:1px solid #ccc;
+  line-height: 10px;
+} 
+.navbar ul li:nth-last-child(1) {
+  margin-right: 0px;
+  border-right: none;
+  padding: 0px;
+} 
 
 .connect-header {
     font-size: 25px;
