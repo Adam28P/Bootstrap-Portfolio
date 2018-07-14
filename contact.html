@@ -13,82 +13,113 @@
   <!-- Our own CSS stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css">
 
+   <!-- Link to FontAwesome stylesheet-->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+   crossorigin="anonymous">
+
   <title>Contact</title>
 </head>
 
 <body>
-        <div id="entire-wrapper">
-     <!-- Start of navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
-    <div class="container">
-      <!-- Logo with name here -->
-      <div class="navbar-header">
-        <a class="navbar-brand" href="index.html" id="logo">Adam Paralovos</a>
-      </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#page-nav-collapse" aria-controls="navbarNav" aria-expanded="false"
-          aria-label="Toggle navigation">
+  <div id="entire-wrapper">
+    <!-- Start of navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+      <div class="container">
+        <!-- Logo -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html" id="logo">Adam Paralovos</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#page-nav-collapse" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-      <div class="collapse navbar-collapse" id="page-nav-collapse">
-        <ul class="nav navbar-nav ml-auto">
-          <li>
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          <li>
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="page-nav-collapse">
+          <ul class="nav navbar-nav ml-auto">
+            <li>
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <!-- End of navbar -->
+    </nav>
+    <!-- End of navbar -->
 
-  <!-- Start of container -->
-  <section class="container">
-    <section class="row">
-      <div class="col-md-8">
-        <form class="main form-horizontal">
-          <h2 class="container-header">Contact</h2>
-          <hr />
-          <div class="form-group">
-            <label for="name" class="col-sm-2 control-label">Name</label>
-            <div class="col-sm-10">
-              <input type="email" class="form-control" id="name" placeholder="Your full name...">
+    <!-- Start of container -->
+    <section class="container">
+      <section class="row">
+        <div class="col-md-8">
+          <form class="main form-horizontal">
+            <h2 class="container-header">Contact</h2>
+            <hr />
+            <div class="form-group">
+              <label for="name" class="col-sm-2 control-label">Name</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="name" placeholder="Your full name...">
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label for="email" class="col-sm-2 control-label">Email</label>
-            <div class="col-sm-10">
-              <input type="password" class="form-control" id="email" placeholder="Your email...">
+            <div class="form-group">
+              <label for="email" class="col-sm-2 control-label">Email</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="email" placeholder="Your email...">
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label class="col-sm-2 control-label" for="msg">Message</label>
-            <div class="col-sm-10">
-              <textarea id="msg" class="form-control" rows="4" placeholder="Write something to me..."></textarea>
+            <div class="form-group">
+              <label class="col-sm-2 control-label" for="msg">Message</label>
+              <div class="col-sm-10">
+                <textarea id="msg" class="form-control" rows="4" placeholder="Write something to me..."></textarea>
+              </div>
             </div>
-          </div>
-          <button class="submit-btn">Submit</button>
-        </form>
-      </div>
+            <button class="submit-btn">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-4">
+          <section>
+            <div class="card">
+              <div class="card-header">
+                <center>
+                  <strong>Check me out on social!</strong>
+                </center>
+              </div>
+              <div class="card-body">
+                <center>
+                  <a href="https://www.facebook.com/adam.paralovos" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                  <a href="https://twitter.com/adamparalovos" target="_blank">
+                    <i class="fab fa-twitter-square"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/adamparalovos/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a href="http://github.com/Adam28P/" target="_blank">
+                    <i class="fab fa-github-square"></i>
+                  </a>
+                </center>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
     </section>
-  </section>
-  <!-- End of container -->
+    <!-- End of container -->
 
 
-  <!-- Start of footer -->
-  <footer class="footer">
-    <div class="two-toned-footer-color"></div>
-    <p class="text-muted text-muted-footer text-center">
-      Copyright &copy; 2018
-    </p>
-  </footer>
-  <!-- End of footer -->
-</div>
+    <!-- Start of footer -->
+    <footer class="footer">
+      <div class="two-toned-footer-color"></div>
+      <p class="text-muted text-muted-footer text-center">
+        Copyright &copy; 2018
+      </p>
+    </footer>
+    <!-- End of footer -->
+  </div>
   <!-- JavaScripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
